@@ -38,7 +38,7 @@ A secure Flutter vault app that uniquely blends **Vedic astrology** with modern 
 
 1. **User inputs** birth data (date, time, location)
 2. **App generates** a Kundali using sidereal calculations
-3. **User selects** a pattern of planets (e.g. Saturn → Mars → Venus → Ketu)
+3. **User selects** a pattern of planets (Moon → Mars → Saturn → Ketu) [fixed for now]
 4. **Key is derived** using the selected planets + pepper → AES encryption
 5. **Vault unlocks** and data is decrypted on device
 
